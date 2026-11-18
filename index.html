@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thaina – moderadora de live e Discord</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<div class="wrap">
+  <div class="hero">
+    <div>
+      <h1>Thaina, moderadora de live e Discord</h1>
+      <p>Moderadora da hiimekira, organizada, observadora e de aprender rápido. Estou de folga lá por 8 dias e posso moderar a sua live e o Discord, e ainda deixar o chat animado.</p>
+      <a class="btn" href="#teste">Fazer o teste de moderação</a>
+      <a class="btn alt" href="#trajetoria">Ver minha trajetória</a>
+    </div>
+    <aside class="id px" aria-label="Ficha de personagem">
+      <header>
+        <canvas id="sprite" width="12" height="12" role="img" aria-label="Escudo com estrela"></canvas>
+        <h2>Ficha da moderadora</h2>
+      </header>
+      <dl>
+        <dt>Nome</dt><dd>Thaina</dd>
+        <dt>Idade</dt><dd>25 anos</dd>
+        <dt>Classe</dt><dd>Moderadora de live e Discord</dd>
+        <dt>Base</dt><dd>hiimekira</dd>
+        <dt>Status</dt><dd><span class="tag">Livre por 8 dias</span></dd>
+      </dl>
+    </aside>
+  </div>
+</div>
+
+<section id="sobre">
+  <div class="wrap">
+    <h2>Sobre mim</h2>
+    <div class="about card px">
+      <p>Sou a Thaina, moderadora da hiimekira, e hoje cuido do chat e do Discord dela. Estou de folga lá por 8 dias, então posso ajudar a sua live nesse tempo.</p>
+      <p>Sou organizada, observadora e aprendo rápido. Não tenho paciência pra bagunça: gosto de regra clara e chat em ordem. Sou direta e objetiva, e resolvo os problemas de forma criativa.</p>
+      <p>Além de moderar a live e o Discord, adoro entreter o chat, seja zoando de leve, seja com uma boa fofoca.</p>
+    </div>
+  </div>
+</section>
+
+<section id="teste">
+  <div class="wrap">
+    <h2>Teste: limpe este chat</h2>
+    <p>Clique nas mensagens que eu daria timeout. Cuidado: nem toda mensagem é problema.</p>
+    <div class="chat px" id="chat">
+      <button class="msg" data-bad="1" data-why="Spam com link suspeito. Timeout e apago a mensagem."><b>seguidores_baratos</b>: compra seguidores aqui, link na bio!!</button>
+      <button class="msg" data-bad="0"><b>ana_gta</b>: gente, que cena boa essa perseguição!</button>
+      <button class="msg" data-bad="1" data-why="Ataque pessoal. Timeout e aviso no Discord se repetir."><b>troll_xx</b>: esse streamer é ruim demais, sai da cidade</button>
+      <button class="msg" data-bad="0"><b>zeca</b>: alguém sabe que horas começa o próximo RP?</button>
+      <button class="msg" data-bad="1" data-why="Divulgação de servidor sem permissão. Timeout e explico a regra."><b>novo_server</b>: entra no meu Discord, lá é melhor que aqui</button>
+    </div>
+    <p class="status" id="status" role="status" aria-live="polite"></p>
+  </div>
+</section>
+
+<section id="trajetoria">
+  <div class="wrap">
+    <h2>Minha trajetória</h2>
+    <ol class="quests">
+      <li class="quest px"><time>2013 a 2019</time><h3>Criadora de conteúdo no YouTube</h3><p>Edição de vídeo, criação e inovação de conteúdo e pesquisa sobre a plataforma.</p></li>
+      <li class="quest px"><time>2022 a 2023</time><h3>Estagiária e voluntária em biblioteca</h3><p>Organização, limpeza e atendimento ao público. Também fazia suporte de TI, resolvendo problemas técnicos com rapidez.</p></li>
+      <li class="quest px"><time>2023 a 2024</time><h3>Roteirista de lore de Minecraft</h3><p>Escrita e criação de entretenimento, moderação de Discord e organização de pessoas.</p></li>
+      <li class="quest px"><time>2024</time><h3>Streamer na Roxo</h3><p>Nove meses de lives de Minecraft e RPG de mesa com amigos.</p></li>
+      <li class="quest now px"><time>Hoje</time><h3>Moderadora da hiimekira</h3><p>Moderação de Discord e de live, muita organização e ideias para ajudar a streamer.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Projetos e cursos</h2>
+    <div class="grid">
+      <article class="card px">
+        <h3>Librando e Aprendendo</h3>
+        <p>Jogo de Libras feito em HTML, CSS e JS para memorizar sinais, não só o alfabeto manual. Está online e qualquer pessoa pode jogar.</p>
+      </article>
+      <article class="card px">
+        <h3>Jogo de terror de investigação</h3>
+        <p>Um jogo de investigação em pixel art onde você explora a cidade para desvendar um assassinato. Atualmente em versão demo.</p>
+      </article>
+    </div>
+    <h3 style="margin:36px 0 16px">Cursos concluídos</h3>
+    <ul class="courses">
+      <li>Secretariado 2.0</li><li>Pacote Office completo</li><li>Marketing pessoal</li><li>Como organizar seu tempo</li><li>C# completo</li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <h2>Precisa de uma mod por 8 dias?</h2>
+    <!-- TROQUE os dois links abaixo pelos seus contatos reais -->
+    <a class="btn" href="https://discord.com/users/rossinoli_thai">Chamar no Discord</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
